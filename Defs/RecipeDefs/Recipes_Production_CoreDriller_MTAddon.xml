@@ -13,7 +13,7 @@
 
 
 	<!-- ============== Actual recipes =================== -->
-	<RecipeDef>
+	<RecipeDef ParentName="CoreDrillBase">
 		<defName>MiningWolframium</defName>
 		<label>mining deep Wolframium</label>
 		<description>mining deep Wolframium.</description>
@@ -23,7 +23,7 @@
 		</products>		
 	</RecipeDef>
 
-	<RecipeDef>
+	<RecipeDef ParentName="CoreDrillBase">
 		<defName>MiningCobaltOre</defName>
 		<label>mining Cobalt Ore</label>
 		<description>mining Cobalt Ore.</description>
