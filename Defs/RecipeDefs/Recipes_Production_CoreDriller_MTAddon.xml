@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+	<RecipeDef Name="CoreDrillBase" Abstract="True">
+		<workAmount>5000</workAmount>
+		<efficiencyStat>MiningSpeed</efficiencyStat>
+    	<effectWorking>Drill</effectWorking>
+		<workSkillLearnFactor>0.2</workSkillLearnFactor>
+		<workSkill>Mining</workSkill>
+		<recipeUsers>
+			<li>CoreDrill</li>
+		</recipeUsers>		
+	</RecipeDef>
+
+
+	<!-- ============== Actual recipes =================== -->
+	<RecipeDef>
+		<defName>MiningWolframium</defName>
+		<label>mining deep Wolframium</label>
+		<description>mining deep Wolframium.</description>
+		<jobString>Mining deep Wolframium.</jobString>
+		<products>
+			<Vanya_Wolframium>3</Vanya_Wolframium>
+		</products>		
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MiningCobaltOre</defName>
+		<label>mining Cobalt Ore</label>
+		<description>mining Cobalt Ore.</description>
+		<jobString>Mining deep cobalt.</jobString>
+		<products>
+			<Vanya_Cobalt>3</Vanya_Cobalt>
+		</products>		
+	</RecipeDef>
+</RecipeDefs>
